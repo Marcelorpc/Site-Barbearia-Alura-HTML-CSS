@@ -1,0 +1,43 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #cccccc;
+    padding: 2em;
+}
+
+.box {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.box > nav {
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+
+.box > nav > li {
+    display: inline-block;
+    margin: 0 0 0 2em;
+    vertical-align: top;
+}
+
+.box > nav > li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+}
+
+.box > nav > li > a:hover {
+    transition: 0.5s all;
+    font-size: 1.7em;
+}
+
+.box > nav > li > a:active {
+    color: blue;
+}

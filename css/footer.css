@@ -1,0 +1,9 @@
+footer {
+    background: url(imagens/bg.jpg);
+    padding: 2em 0;
+    text-align: center;
+}   
+footer > p {
+        font-size: 1em;
+        color: white;
+    }

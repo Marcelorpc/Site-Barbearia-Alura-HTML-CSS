@@ -1,0 +1,110 @@
+main {
+    background: linear-gradient(#ffffff, #cccccc, #ffffff);
+}
+
+.horario-atendimento {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0em 0;
+    text-align: center;
+    position: relative;
+}
+.horario-atendimento > table {
+    position: absolute;
+    top: 37em;
+    right: 8em;
+}
+.horario-atendimento > table > thead > tr {
+    width: 4em;
+    height: 2em;
+    background: #92ccfe;
+    text-align: center;
+}
+.horario-atendimento > table > thead > tr > th {
+    padding: 1em 1em;
+    border: 2px solid #000000;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.horario-atendimento > table > tbody > tr {
+    width: 4em;
+    height: 2em;
+}
+.horario-atendimento > table > tbody > tr > th {
+    padding: 1em 1em;
+    border: 2px solid #000000;
+    font-size: 1em;
+}
+
+form {
+    width: 940px;
+    margin: 0 auto;
+    padding: 2em 0;
+    text-align: left;
+}
+form > label {
+    font-size: 1.2em;
+    display: block;
+    margin: 1em 0;
+}
+form .input-padrao {
+    width: 50%;
+    padding: 0.5em 0.5em;
+    margin-bottom: 1em;
+}
+
+.tipo-contato {
+    margin: 1em 0;
+}
+.tipo-contato > legend {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+.tipo-contato > label {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    display: block;
+}
+.tipo-contato > label > input:hover{
+    cursor: pointer;
+}
+
+.horario-contato {
+    margin: 1em 0;
+}
+.horario-contato > legend {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+.horario-contato > select {
+    width: 12%;
+    padding: 1em 1em;
+    font-size: 1em;
+    font-weight: bold;
+}
+.horario-contato > select:hover{
+    cursor: pointer;
+}
+.horario-contato > select > option {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1em 1em;
+}
+
+.contato-checkbox > input:hover {
+    cursor: pointer;
+}
+
+.botao-enviar {
+    width: 25%;
+    height: 3em;
+    font-size: 1.2em;
+    font-weight: bold;
+    background: #f4ff5f;
+    margin-bottom: 2em;
+    border-radius: 10px;
+}
+.botao-enviar:hover {
+    cursor: pointer;
+}
+
